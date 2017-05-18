@@ -10,9 +10,9 @@ Requirements
 
 To use the Infortrend Manila driver, the followings are required:
 
-- GS/GSe Family firmware version XXXX or higher
+- GS/GSe Family firmware version v73.1.0-4 and later.
 
-- Configure at least one channel for file using.
+- Configure at least one channel for shared file systems.
 
 Supported shared filesystems and operations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
