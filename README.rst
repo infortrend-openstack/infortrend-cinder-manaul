@@ -66,15 +66,13 @@ Driver options
    * - ``infortrend_nas_user`` = ``manila``
      - (String) Infortrend nas username.
    * - ``infortrend_nas_password`` = ``None``
-     - (String) Infortrend nas password. This is not necessary if infortrend_nas_ssh_key is set.
+     - (String) Password for the Infortrend NAS server. This is not necessary if infortrend_nas_ssh_key is set.
    * - ``infortrend_nas_ssh_key`` = ``None``
-     - (String) Infortrend nas ssh key. This is not necessary if infortrend_nas_password is set.
+     - (String) SSH key for the Infortrend NAS server. This is not necessary if infortrend_nas_password is set.
    * - ``infortrend_share_pools`` = ``None``
      - (String) Infortrend nas pool name list. It is separated with comma.
    * - ``infortrend_share_channels`` = ``None``
      - (String) Infortrend channels for file service. It is separated with comma.
-   * - ``infortrend_cli_max_retries`` = ``5``
-     - (Integer) Maximum retry times for cli.
    * - ``infortrend_cli_timeout`` = ``30``
      - (Integer) CLI timeout in seconds.
 
